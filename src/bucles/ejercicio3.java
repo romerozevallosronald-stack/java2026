@@ -10,7 +10,7 @@ public class ejercicio3 {
         gastos = entradaDatos.nextDouble();
         if (gastos == 0 ) {
             System.out.println("No tienes ningun gasto");
-        }
+        }else{
         while (gastos != 0){
                 totalgastos = totalgastos + gastos;
                 System.out.println("Mis gastos son: "+ totalgastos);
@@ -20,5 +20,6 @@ public class ejercicio3 {
             entradaDatos.close();
         }
 
-    }
+    }}
+
 
